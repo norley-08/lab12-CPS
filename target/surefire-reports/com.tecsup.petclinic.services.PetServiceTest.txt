@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.tecsup.petclinic.services.PetServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in com.tecsup.petclinic.services.PetServiceTest
+com.tecsup.petclinic.services.PetServiceTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.tecsup.petclinic.OwnerClinicApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\PetClinic-master\target\classes\com\tecsup\petclinic\OwnerClinicApplication.class], Generic bean: class [com.tecsup.petclinic.PetClinicApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in file [C:\PetClinic-master\target\classes\com\tecsup\petclinic\PetClinicApplication.class]]
+
